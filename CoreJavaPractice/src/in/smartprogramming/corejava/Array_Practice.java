@@ -38,16 +38,16 @@ public class Array_Practice {
 
 		//Write a Java Program to Find the Largest Element in Array
 
-		int ar[] = {25,80,115,2,25,35,1000};
-		Arrays.sort(ar);
+		int ar1[] = {25,80,115,2,25,35,1000};
+		Arrays.sort(ar1);
 		
-		for(int i: ar)
+		for(int i: ar1)
 		System.out.print(i+ " ");
 		
-		int largest =ar[0];
-		for (int i=0; i<ar.length; i++) {
-			if (ar[i]>largest) {
-				largest = ar[i];
+		int largest =ar1[0];
+		for (int i=0; i<ar1.length; i++) {
+			if (ar1[i]>largest) {
+				largest = ar1[i];
 				
 			}
 		}
